@@ -1,5 +1,5 @@
 
-# My Java DDD Project
+# Swift2Json Parser
 
 ## Project Overview
 
