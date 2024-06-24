@@ -1,6 +1,6 @@
 package com.six.swiftparser.api;
 
-import com.six.swiftparser.service.MessageParser;
+import com.six.swiftparser.domain.MessageParser;
 import com.six.swiftparser.domain.MessageParsingError;
 import com.six.swiftparser.domain.MessageParsingResult;
 import com.six.swiftparser.domain.exception.InvalidField;

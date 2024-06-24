@@ -1,8 +1,8 @@
 package com.six.swiftparser.infrastructure;
 
 import com.six.swiftparser.api.MessageParserApi;
-import com.six.swiftparser.service.MessageParser;
-import com.six.swiftparser.service.SwiftToJsonParser;
+import com.six.swiftparser.domain.MessageParser;
+import com.six.swiftparser.domain.SwiftToJsonParser;
 import com.six.swiftparser.domain.FieldProperty;
 import com.six.swiftparser.domain.FieldType;
 import com.six.swiftparser.domain.SwiftFormatProperties;

@@ -4,7 +4,7 @@ package com.example.swiftparser;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.six.swiftparser.infrastructure.Main;
-import com.six.swiftparser.service.SwiftToJsonParser;
+import com.six.swiftparser.domain.SwiftToJsonParser;
 import com.six.swiftparser.domain.exception.InvalidField;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

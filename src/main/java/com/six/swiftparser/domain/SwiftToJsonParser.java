@@ -1,9 +1,7 @@
-package com.six.swiftparser.service;
+package com.six.swiftparser.domain;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.six.swiftparser.domain.FieldProperty;
-import com.six.swiftparser.domain.SwiftFormatProperties;
 import com.six.swiftparser.domain.exception.InvalidField;
 import com.six.swiftparser.domain.exception.InvalidMessage;
 import org.slf4j.Logger;

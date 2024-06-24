@@ -1,0 +1,19 @@
+###
+
+# curl -X POST http://localhost:8080/parse-swift-message
+#                             -H 'Content-Type: application/xml'
+#                             -d '<swift><transaction><id>12345</id><amount>1000.00</amount><currency>USD</currency><date>2024-05-28</date></transaction></swift>'
+POST http://localhost:8080/parse-swift-message
+Content-Type: application/xml
+
+<swift>
+    <transaction>
+        <id>12345</id>
+        <amount>1000.00</amount>
+        <currency>USD</currency>
+        <date>2024-05-28</date>
+    </transaction>
+</swift>
+
+###
+

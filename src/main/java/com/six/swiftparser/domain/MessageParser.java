@@ -1,4 +1,4 @@
-package com.six.swiftparser.service;
+package com.six.swiftparser.domain;
 
 import com.six.swiftparser.domain.exception.InvalidField;
 import com.six.swiftparser.domain.exception.InvalidMessage;
